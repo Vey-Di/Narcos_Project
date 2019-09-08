@@ -1,0 +1,17 @@
+.conteiner { 
+    display: inline-block; 	
+	background-image: -webkit-linear-gradient(
+		left, 
+		#eee, 
+		#eee 25%,
+		#ccc 25%,
+		#ccc 50%,
+		#eee 50%,
+		#eee 75%,
+		#ccc 75%,
+		#eee 100%
+	);
+}
+.conteiner .colum {
+	width: 21%; float: left; padding: 2%;
+}

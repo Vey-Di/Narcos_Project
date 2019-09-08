@@ -1,0 +1,557 @@
+
+.navbar-brand img{
+    height: 70px;
+}
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    padding-left: 15%;
+}
+
+/*.header {
+    flex-direction: row;
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1000px;
+    background-position-x: -78px;
+}
+.missPlace {
+    height: 500px;
+    background-image: url('accounting.jpg');
+    
+}*/
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 45%;
+    color: white;
+    text-align: center;
+    background-color: rgba($color: #004799, $alpha: 0.3);
+    .title {
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    nobr {
+        margin-top: -10px;
+        font-size: 2vw;
+    }
+    .description {
+        max-width: 240px;
+        width: 100%;
+    }
+    p {
+        margin-top: -1px;
+        margin-bottom: -1px;
+        font-size: 1.1vw;
+    }
+
+}
+.header_2 {
+    display: flex;
+    flex-direction: row;
+    .Inscription {
+        color: #00305b;
+        margin-top: -15%;
+        font-size: 38px;
+    }
+    .InscriptionFat {
+        color: #00305b;
+        font-size: 40px;
+        font-weight: bold; 
+    }
+}
+.workList {
+    z-index: 10;
+    padding: 0px 0px;
+    li {
+        color: #41b7c4;
+    }
+    li span {
+        color: #00306f;
+    }
+    .list-item {
+        font-size: 26px;
+        margin: 0px 20px;
+    }
+    .description {
+        color: #00305b;
+        margin: 20px 8px;
+        font-size: 20px;
+    }
+
+}
+.title_2{
+    display: flex;
+    background-color: #eaf4f6;
+    width: 45%;
+    flex-direction: column;
+    padding-left: 30vw;
+    padding-top: 3vw;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 55%;
+    .parth {
+        padding: 50px 50px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        ul {
+            list-style-type: square;
+        }
+    } 
+}
+
+
+.article_1 {
+    background-color: #00305b;
+    color: #ffffff;
+    text-align: center;
+}
+.aboutUs {
+    margin-left: 25%;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.aboutUs {
+    padding: 50px;
+    .article-header {
+        font-size: 2.7vw;
+        :first-child {
+            font-weight: bold;
+        }
+    }
+    .article-item {
+        font-size: 1vw;
+    }
+}
+.ourSpecialist{
+    text-align: center;
+    background-color: #eaf4f6;
+}
+.headline {
+    padding-top: 40px;
+}
+.specTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.specialist {
+    text-align: center;
+    padding: 15px 25px;
+    
+    img {
+        height: 450px;
+        width: 300px;
+        margin: 15px;
+
+    }
+    li {
+        line-height: 1px;
+    }
+    ul {
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    .underline {
+        border-top: solid black 1px;
+        margin: 35px 0px 45px 0px;
+    }
+}
+.contactTab {
+    display: flex;
+    flex-direction: row;
+    
+    .Inscription {
+        display: flex;
+        background-color: rgba($color: #004799, $alpha: 0.3); 
+        color: #ffffff;
+        width: 45%;
+        text-align: right;
+        justify-content: flex-end;
+        .InscriptionText{
+            font-size: 25px;
+            margin: -1px 30px -1px 0px;
+        }
+        .InscriptionText.Fat{
+            margin: 20px 30px -1px 0px;
+            font-weight: bold;
+        }
+    }
+        
+    .Info {
+        background-color: rgba($color: #346399, $alpha: 0.3);
+        color: black;
+        width: 55%;
+        min-height: 215px;
+        max-height: 700px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        .leftParth {
+            position: relative;
+            margin: 20px 0px 0px 30px;
+            text-align: left;
+            .pleace {
+                height: 20px;
+            }
+            a {
+                border: solid blue 1px;
+                border-radius: 4px;
+                padding: 3px;
+                margin-left: 10px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            nobr {
+                font-size: 16px;
+            }
+            .title{
+                nobr{
+                    font-size: 25px;
+                }
+            }
+        }  
+        .map {
+            margin: 12px;
+            height: 500px;
+            width: 700px;
+
+        }   
+        .fat{
+            font-weight: bold;
+        }
+        .numbers {
+            margin-top: 25px;
+            width: 50px;
+            li{
+                list-style-type: none;
+                p{
+                    font-size: 1vw;
+                }
+            }
+        }
+    }
+}
+.footor {
+    padding: 10px 0px;
+    background-color: #00305b;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    ul {
+        list-style-type: none;
+    }
+    img {
+        height: 30px;
+        width: 40px;
+        justify-content: center;
+    }
+}
+.parth_two {
+    padding: 50px 50px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        ul {
+            list-style-type: square;
+        }
+}
+.priceTab {
+    min-height: 300px;
+    max-height: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .title {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        font-size: 25px;
+        width: 45%;
+        background-color: lightblue;
+        color: white;
+        text-align: center;
+        .textConteiner {
+            margin: 30px 30px -1px 0px;
+        }
+        nobr {
+            margin: -1px 0px -1px 0px;
+            
+        }
+        nobr.fat{
+            margin: 0px 0px -1px 0px;
+        }
+    }
+    .fat {
+        font-weight: bold;
+    }
+    li{ 
+        list-style-type: none;
+    }
+    .rightParth {
+        width: 100%;
+        background-color: #ffffff;
+    }
+}
+.priceConstructor {
+    height: 335px;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .button {
+        text-decoration: none;
+        border: solid #add8e6 1px;
+        border-radius: 9px;
+        padding: 3px;
+        position: absolute;
+        top: 330px;
+        cursor: pointer;
+        color:#000000;
+    }
+    .button:hover {
+        cursor: pointer;
+        color:#000000;
+    }
+}
+.priceParth {
+    max-width: 800px;
+    padding: 0px 15px 30px 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    .ulPrice{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .li {
+        max-width: 900px;
+        padding: 5px 3px 5px 3px;
+        margin: 10px 0px 10px 0px;
+        height: 100px;
+        border: solid black 1px;
+        border-radius: 10px;
+        background-color: #eaf4f6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .text {
+            font-size: 16px;
+        }
+        .title{ 
+            font-size: 18px;
+            color: black;
+            background-color: #eaf4f6;
+        }
+    }
+}
+
+
+@media only screen and (max-device-width: 1068px) {
+    .header_2{
+        flex-direction: column;
+        .title_2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 0px 0px 0px;
+            width: 100%;
+            height: 170px;
+        }
+        .list {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    .section.section.parallax.bg1 {
+        max-height: 300px;
+    }
+    .header {
+        background-image: unset;
+        background-color: #00306f;
+    }
+    .missPlace {
+        display: none;
+    }
+    .specTable{
+        flex-direction: column;
+        justify-content: center;
+        
+    } 
+    .specialist {
+        img {
+            height: 250px;
+            width: 200px; 
+        }
+    }
+    .mainTitle {
+        width: 100%;
+        margin: 15px 15px 15px 10px;  
+        height: 250px;
+        .title {
+            font-size: 10vw;
+        }
+        nobr {
+            font-size: 4vw;
+        }
+        .description {
+            font-size: 3vw;
+        }
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .section.section.parallax.bg1{ 
+        height: 360px;
+    }
+    .list {
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        .parth_two {
+            padding-top: 0px;
+            margin-top: -72px;
+            padding-bottom: 120px;
+            .list-item {
+                .span {
+                   font-size: 20px; 
+                }
+                p{
+
+                }
+            }
+        }
+    }
+    section.parallax.bg2 {
+        z-index: -10;
+    }
+    .list-item {
+        font-size: 20px;
+    }
+    .contactTab {
+        .Inscription {
+            .InscriptionText {
+                font-size: 14px;
+            }    
+        }
+        .Info {
+            .leftParth {
+                a {
+                    font-size: 14px;
+                }
+                nobr {
+                    font-size: 10px;
+                }
+                .title {
+                    nobr {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .workList {
+        .list-item {
+            font-size: 16px;
+        }
+        .description {
+            font-size: 12px;
+        }
+    }
+    .list {
+        max-height: 500px;
+        .parth {
+            padding: 0px;
+        }
+        .parth_two {
+            padding-top: 40px;
+        }
+    }
+    .article_1 {
+        .aboutUs {
+            width: 100%;
+            margin: 0px;
+            .article-item {
+                font-size: 14px;
+            }
+            .article-header {
+                font-size: 26px;
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: 362px) {
+    .parth {
+        margin-top: 140px;
+    }
+    .parth_two {
+        padding-bottom: 140px;
+    }
+}
+.wrapper {
+ 
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    overflow-y: auto;
+
+    perspective: 2px;
+  }
+  
+  .section {
+
+    position: relative;
+ 
+    height: 95vh;
+  }
+  
+  .parallax::after {
+ 
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+
+    transform: translateZ(-1px) scale(1.5);
+
+    background-size: 100%;
+
+    z-index: -1;
+  }
+  
+  .bg1::after {
+    background-image: url('1.jpg');
+    background-position: 0px 0px;
+  }
+  
+  .bg2::after {
+    background-image: url('accounting.jpg');
+    background-position: 0px 53px;
+  }
+   

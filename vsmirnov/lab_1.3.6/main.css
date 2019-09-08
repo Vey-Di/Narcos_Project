@@ -1,0 +1,45 @@
+#block{
+    background-color: green;
+    padding: 15px;
+}
+#block1{
+    background-color: blue;
+    padding: 20px;
+    margin-top: 40px;
+    display: inline-block;
+    width: 400px;
+}
+#block input{
+    display: inline-block;
+    color: white;
+    background-color: darkred;
+    font-family: sans-serif;
+    padding: 15px;
+    margin-right: 20px;
+}
+<<<<<<< HEAD:vsmirnov/lab_1.3.6/main.css
+#block1 input{
+=======
+.intop{
+    background-color: rgb(81, 255, 0);
+    padding: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+}
+.buttom_intop{
+>>>>>>> b8d14e7fde1f4d09f68af63442b265658dc182a0:mgorbik/lab1/css2/style2.css
+    width: 45%;
+    color: gray;
+    background-color: lightpink;
+    font-family: sans-serif;
+    margin-right: 5%;
+    float: left;
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}

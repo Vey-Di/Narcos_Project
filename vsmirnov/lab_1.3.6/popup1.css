@@ -1,0 +1,17 @@
+body{
+    position: relative;
+    height: 100vh;
+}
+.popup{
+    background-color: white;
+    border: 2px solid red;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    text-align: center;
+    z-index: 1;
+    margin-left: -250px;
+    margin-top: -200px;
+}

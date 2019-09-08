@@ -1,0 +1,67 @@
+.block-1{
+    display: flex;
+    padding: 10px;
+    flex-grow: 1;
+    background-color: lightblue;
+}
+input{
+    background-color: orange;
+    padding: 10px;
+    margin: 0px 7px;
+}
+.sign{
+    margin-left: auto;
+}
+.block-2{
+    display: flex;
+    flex-direction: row;
+}
+.con_1{
+    flex: 3 0;
+    background-color: lightpink;
+    margin: 3px;
+}
+.con_2{
+    flex: 1 0 200px;
+    margin: white;
+}
+.block-3{
+    display: flex;
+    padding: 10px;
+}
+.nam{
+    display: flex;
+    flex-direction: column;
+}
+.tex{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    align-self: end;
+    color: white;
+    height: 30px;
+    width: 60px;
+    background-color: darkred;
+    border: solid red 1px;
+    border-radius: 5px;
+}
+.nam div{
+    height: 80px;
+    width: 120px;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 5px;
+    color: white;
+}
+.tex div{
+    flex: 0 1 200; 
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 5px;
+    color: white;
+}

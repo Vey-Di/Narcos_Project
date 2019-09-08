@@ -1,0 +1,53 @@
+body{
+    font-family: Arial;
+}
+#block {
+    background-color: skyblue;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 15px; 
+}
+.conteiner {
+    background-color: skyblue;
+    margin: 0px;
+    padding: 17px 15px; 
+}
+
+}
+#block2{
+    background-color: white;
+    border: 1px solid black;
+    margin: 7px 7px 7px 7px;
+    padding: -17px -15px; 
+    text-align: left;
+    
+}
+input{
+    background-color: blue;
+    font-size: 40px;
+  color: white;
+}
+#block2 input{
+    background-color: darkred;
+    padding: 7px;
+}
+#conteiner_2 input{
+    background-color: whitesmoke;
+    color:Pink;
+}
+#block3{
+    background-color: skyblue;
+    text-align: left;
+    width: 100%;
+    margin-top: 15px; 
+}
+.p1 {
+    background: #fedf10;
+}
+.p2{
+    background: #fedf10;
+}
+.img{
+    position: absolute
+    bottom: 0
+}

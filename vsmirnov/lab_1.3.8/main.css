@@ -1,0 +1,50 @@
+body{
+    background-image: url(space.jpg);
+}
+.sun{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    border-radius: 50%;
+    z-index: 5;
+    transition: 0.5s;
+}
+.sun:hover{
+    transform:  scale(1.2);
+}
+.mars-orbit{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: calc(50% - 204px);
+    left: calc(50% - 204px);
+    border: solid white 4px;
+    border-radius: 50%;
+}
+.mars{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    background-color: red;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: 6s krug linear infinite;
+}
+.mars:hover{
+    height: 60px;
+    width: 60px;
+    ltop: calc(50% - 30px);
+    left: calc(50% - 30px);
+}
+@keyframes krug {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+  }
+  .mars-orbit:hover .mars{
+    animation-play-state: paused;
+  }
