@@ -111,6 +111,7 @@
 }
 
 
+
 .article_1 {
     background-color: #00305b;
     color: #ffffff;
@@ -167,6 +168,64 @@
         border-top: solid black 1px;
         margin: 35px 0px 45px 0px;
     }
+}
+.article_2 {
+    display: flex;
+    flex-direction: row;
+    .Inscription {
+        color: #00305b;
+        margin-top: -15%;
+        font-size: 38px;
+    }
+    .InscriptionFat {
+        color: #00305b;
+        font-size: 40px;
+        font-weight: bold; 
+    }
+}
+.priceTabs {
+    z-index: 10;
+    padding: 0px 0px;
+    li {
+        color: #41b7c4;
+    }
+    li span {
+        color: #00306f;
+    }
+    .list-item {
+        font-size: 26px;
+        margin: 0px 20px;
+    }
+    .description {
+        color: #00305b;
+        margin: 20px 8px;
+        font-size: 20px;
+    }
+
+}
+.title_3{
+    display: flex;
+    background-color: #eaf4f6;
+    width: 45%;
+    flex-direction: column;
+    padding-left: 30vw;
+    padding-top: 3vw;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 55%;
+    .parth {
+        padding: 50px 50px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        ul {
+            list-style-type: square;
+        }
+    } 
 }
 .contactTab {
     display: flex;

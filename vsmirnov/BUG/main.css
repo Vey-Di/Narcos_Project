@@ -177,6 +177,74 @@
     border-top: solid black 1px;
     margin: 35px 0px 45px 0px; }
 
+.article_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .article_2 .Inscription {
+    color: #00305b;
+    margin-top: -15%;
+    font-size: 38px; }
+  .article_2 .InscriptionFat {
+    color: #00305b;
+    font-size: 40px;
+    font-weight: bold; }
+
+.priceTabs {
+  z-index: 10;
+  padding: 0px 0px; }
+  .priceTabs li {
+    color: #41b7c4; }
+  .priceTabs li span {
+    color: #00306f; }
+  .priceTabs .list-item {
+    font-size: 26px;
+    margin: 0px 20px; }
+  .priceTabs .description {
+    color: #00305b;
+    margin: 20px 8px;
+    font-size: 20px; }
+
+.title_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eaf4f6;
+  width: 45%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 30vw;
+  padding-top: 3vw; }
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 55%; }
+  .list .parth {
+    padding: 50px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 40px; }
+    .list .parth ul {
+      list-style-type: square; }
+
 .contactTab {
   display: -webkit-box;
   display: -ms-flexbox;
