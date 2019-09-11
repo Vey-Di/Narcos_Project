@@ -113,27 +113,27 @@
 
 
 .article_1 {
+    z-index: 10;
+    transform-style: preserve-3d;
     background-color: #00305b;
     color: #ffffff;
     text-align: center;
+    .article-item {
+        font-size: 20px;
+        :first-child {
+            font-weight: bold;
+        }
+    }
+    .article-header {
+        font-size: 26px;
+    }
 }
 .aboutUs {
     margin-left: 25%;
     width: 50%;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-.aboutUs {
     padding: 50px;
-    .article-header {
-        font-size: 2.7vw;
-        :first-child {
-            font-weight: bold;
-        }
-    }
-    .article-item {
-        font-size: 1vw;
-    }
 }
 .ourSpecialist{
     text-align: center;
@@ -169,13 +169,18 @@
         margin: 35px 0px 45px 0px;
     }
 }
+
+
 .article_2 {
+    transform-style: preserve-3d;
+    z-index: 10;
     display: flex;
     flex-direction: row;
     .Inscription {
         color: #00305b;
         margin-top: -15%;
         font-size: 38px;
+        margin-bottom: 30px;
     }
     .InscriptionFat {
         color: #00305b;
@@ -185,22 +190,26 @@
 }
 .priceTabs {
     z-index: 10;
-    padding: 0px 0px;
+    a { 
+        color: #00305b;
+        cursor: pointer;
+        text-decoration: none;
+    }
+   a:hover {
+        color: #00305b;
+        text-decoration: none;
+    }
     li {
         color: #41b7c4;
     }
-    li span {
-        color: #00306f;
-    }
     .list-item {
         font-size: 26px;
-        margin: 0px 20px;
+        margin: 40px 1px;
+        span {
+            color: #00305b;
+        }
     }
-    .description {
-        color: #00305b;
-        margin: 20px 8px;
-        font-size: 20px;
-    }
+    
 
 }
 .title_3{
@@ -210,23 +219,29 @@
     flex-direction: column;
     padding-left: 30vw;
     padding-top: 3vw;
+    height: 400px;
     
 }
-.list{
+.list_price{
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
     width: 55%;
     .parth {
-        padding: 50px 50px;
+        padding: 22px 50px;
         display: flex;
         flex-direction: column;
-        padding-left: 40px;
+        
         ul {
             list-style-type: square;
         }
     } 
+    .parth_two {
+        padding: 22px 160px;
+    }
 }
+
+
 .contactTab {
     display: flex;
     flex-direction: row;
@@ -328,7 +343,7 @@
             list-style-type: square;
         }
 }
-.priceTab {
+/*.priceTab {
     min-height: 300px;
     max-height: 400px;
     height: 100%;
@@ -421,7 +436,7 @@
             background-color: #eaf4f6;
         }
     }
-}
+} */
 
 
 @media only screen and (max-device-width: 1068px) {
@@ -549,16 +564,7 @@
         }
     }
     .article_1 {
-        .aboutUs {
-            width: 100%;
-            margin: 0px;
-            .article-item {
-                font-size: 14px;
-            }
-            .article-header {
-                font-size: 26px;
-            }
-        }
+       
     }
 }
 @media only screen and (max-device-width: 362px) {
@@ -570,7 +576,7 @@
     }
 }
 .wrapper {
- 
+    
     height: 100vh;
 
     overflow-x: hidden;
@@ -586,12 +592,15 @@
  
     height: 95vh;
   }
+  .parallax {
+   
+  }
   
   .parallax::after {
  
     content: " ";
     position: absolute;
-    top: 0;
+    top: -30px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -603,6 +612,9 @@
 
     z-index: -1;
   }
+  .parallax {
+    transform-style: preserve-3d;
+  }
   
   .bg1::after {
     background-image: url('1.jpg');
@@ -610,7 +622,15 @@
   }
   
   .bg2::after {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    z-index: -10;
+
     background-image: url('accounting.jpg');
-    background-position: 0px 53px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
   }
-   
