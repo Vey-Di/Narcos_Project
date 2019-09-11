@@ -614,3 +614,9 @@
   background-image: url("accounting.jpg");
   background-position: 0px 0px;
   background-repeat: no-repeat; }
+  @media only screen and (max-device-height: 1000px) {
+    .bg2::after {
+      background-position: 0px 100px; } }
+  @media only screen and (max-device-height: 800px) {
+    .bg2::after {
+      background-position: 0px 150px; } }
