@@ -136,8 +136,9 @@
     padding: 50px;
 }
 .ourSpecialist{
+    color: white;
     text-align: center;
-    background-color: #eaf4f6;
+    background-color: #00305b;
 }
 .headline {
     padding-top: 40px;
@@ -150,6 +151,7 @@
 .specialist {
     text-align: center;
     padding: 15px 25px;
+    color: white;
     
     img {
         height: 450px;
@@ -623,7 +625,7 @@
   
   .bg2::after {
     position: absolute;
-    top: 300px;
+    top: -30px;
     right: 0;
     bottom: 0;
     left: 0;
