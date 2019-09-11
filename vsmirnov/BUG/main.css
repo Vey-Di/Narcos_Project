@@ -559,7 +559,13 @@
     .list .parth {
       padding: 0px; }
     .list .parth_two {
-      padding-top: 40px; } }
+      padding-top: 40px; }
+  .article_2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%; } }
 
 @media only screen and (max-device-width: 362px) {
   .parth {
@@ -590,9 +596,9 @@
   background-size: 100%;
   z-index: -1; }
 
-.parallax {
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
+@-moz-document url-prefix() {
+  .parallax {
+    transform-style: preserve-3d; } }
 
 .bg1::after {
   background-image: url("1.jpg");
