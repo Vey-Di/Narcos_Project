@@ -299,7 +299,12 @@
                     font-size: 25px;
                 }
             }
-        }    
+        }  
+        .map {
+            margin: 12px;
+            height: 500px;
+            width: 700px;
+        }   
         .fat{
             font-weight: bold;
         }
@@ -340,6 +345,41 @@
             list-style-type: square;
         }
 }
+.showMapMobile {
+    display: none;
+    border: solid blue 1px;
+    border-radius: 4px;
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+.contactTab {
+    a:hover {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.toUpButton{
+    img {
+        height: 20px;
+        padding-bottom: 5px;
+    }
+    color: white;
+    line-height: 1px;
+    text-decoration: none;
+    a {
+        color: white;
+    }
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
 /*.priceTab {
     min-height: 300px;
     max-height: 400px;
@@ -454,10 +494,12 @@
     }
 }
 @media only screen and (max-device-width: 768px) {
-    .map {
-        iframe {
-        padding: 10px 200px 0px 0px;
-        }
+    .showMap {
+        display: none;
+    }
+    .showMapMobile {
+        display: block;
+        text-align: center;
     }
     .aboutUs {
         width: 100%;
@@ -492,9 +534,11 @@
         }
     }
     .section.section.parallax.bg2 {
-       height: 870px;
+        transform-style: flat;
+        height: 870px;
     }
     .section.section.parallax.bg1 {
+        transform-style: flat;
         max-height: 280px;
     }
     .header {
