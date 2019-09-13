@@ -137,6 +137,7 @@
     font-size: 26px; }
 
 .aboutUs {
+  z-index: 10;
   margin-left: 25%;
   width: 50%;
   padding-top: 25px;
@@ -183,7 +184,6 @@
 .article_2 {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,22 +201,23 @@
     font-size: 40px;
     font-weight: bold; }
 
-.priceTabs {
-  z-index: 10; }
-  .priceTabs a {
-    color: #00305b;
-    cursor: pointer;
-    text-decoration: none; }
-  .priceTabs a:hover {
-    color: #00305b;
-    text-decoration: none; }
-  .priceTabs li {
-    color: #41b7c4; }
-  .priceTabs .list-item {
-    font-size: 26px;
-    margin: 40px 1px; }
-    .priceTabs .list-item span {
-      color: #00305b; }
+.priceTabs a {
+  color: #00305b;
+  cursor: pointer;
+  text-decoration: none; }
+
+.priceTabs a:hover {
+  color: #00305b;
+  text-decoration: none; }
+
+.priceTabs li {
+  color: #41b7c4; }
+
+.priceTabs .list-item {
+  font-size: 26px;
+  margin: 40px 1px; }
+  .priceTabs .list-item span {
+    color: #00305b; }
 
 .title_3 {
   display: -webkit-box;
@@ -523,13 +524,14 @@
     width: 100%;
     margin: 0;
     padding: 30px;
-    height: 900px; }
+    height: 950px; }
     .aboutUs .last {
       padding-bottom: 10px;
       margin-bottom: auto; }
   .title_3 {
     width: 100%;
-    height: 170px; }
+    height: 170px;
+    margin-top: 213px; }
     .title_3 .Inscription {
       margin: 0;
       margin-top: -20px;
