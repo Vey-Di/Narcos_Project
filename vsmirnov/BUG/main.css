@@ -552,6 +552,7 @@
     transform-style: flat;
     height: 870px; }
   .section.section.parallax.bg1 {
+    background-image: url("25.png");
     -webkit-transform-style: flat;
     transform-style: flat;
     max-height: 280px; }
@@ -674,6 +675,12 @@
 .bg1::after {
   background-image: url("1.jpg");
   background-position: 0px 0px; }
+  @media only screen and (max-device-width: 768px) {
+    .bg1::after {
+      background-image: url("25.png");
+      -webkit-transform-style: flat;
+      transform-style: flat;
+      max-height: 280px; } }
 
 .bg2::after {
   position: absolute;
