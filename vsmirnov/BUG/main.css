@@ -680,7 +680,8 @@
       background-image: url("25.png");
       -webkit-transform-style: flat;
       transform-style: flat;
-      max-height: 280px; } }
+      max-height: 280px;
+      background-position: 1000px 0px; } }
 
 .bg2::after {
   position: absolute;
